@@ -1,0 +1,277 @@
+:root {
+  --primary: #207DE9;
+  --hoverbg: #116FDA;
+  --subtitle: #6ADFD7;
+  --foreground: #171717;
+  --maincolor: #222222;
+  --white: #fff;
+  --gradientbg: linear-gradient(0deg, rgba(204, 228, 255, .3) 0%, rgba(204, 228, 255, .3) 100%), #FFF;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item a {
+  font-size: 16px;
+  color: var(--maincolor);
+}
+
+footer .nav-item a {
+  font-size: 14px;
+}
+
+.footrow h5 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.mainbtn {
+  padding: 15px 30px;
+  font-weight: 600;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 5px;
+  border: none;
+}
+
+.mainbtn:hover {
+  background-color: var(--hoverbg);
+}
+
+section.banner {
+  padding: 95px 0;
+}
+
+.banner-subheading {
+  color: var(--subtitle);
+  font-weight: 700;
+}
+
+.banner-heading {
+  font-weight: 800;
+  font-size: 63px;
+}
+
+.banner-description {
+  font-size: 18px;
+}
+
+.banner form input {
+  width: 60%;
+  padding: 13px 0;
+  border-radius: 5px;
+  margin-right: -5px;
+  border: none;
+  outline: 0;
+}
+
+.header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  z-index: 999;
+}
+
+.scrollnav {
+  padding: 16px 32px;
+  background: var(--gradientbg);
+  width: fit-content;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.scrollnav li a {
+  font-size: 18px;
+  color: var(--maincolor);
+
+  &:hover {
+    color: var(--primary);
+    font-weight: 600;
+  }
+}
+
+.headcontent h2 {
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.headcontent h2 span {
+  color: var(--primary);
+}
+
+.headcontent p {
+  font-size: 21px;
+}
+
+.setup h5 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--subtitle);
+}
+
+.setup p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.scrollnav .nav-pills .nav-link.active,
+.scrollnav .nav-pills .show>.nav-link {
+  color: var(--primary);
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.scrollnav.sticky {
+  position: fixed;
+  top: 130px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  width: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+footer {
+  position: relative;
+  z-index: 99999;
+  background: var(--white);
+}
+
+.bg-prime {
+  background-color: var(--hoverbg);
+}
+
+.techtabs .nav-link {
+  padding: 30px;
+  box-shadow: 0 2px 24px 0 rgba(110, 123, 129, .2);
+  border-radius: 16px;
+  background: var(--white);
+  color: var(--foreground);
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.techtabs .tab-pane {
+  border-radius: 20px;
+}
+
+.techtabs .nav-link svg {
+  margin-right: 10px;
+}
+
+.techtabs .tab-content p {
+  font-size: 18px;
+}
+
+.resultsilder .slick-next:before,
+.resultsilder .slick-prev:before {
+  font-size: 50px !important;
+  color: var(--maincolor) !important;
+
+}
+
+.resitem {
+  font-size: 18px;
+  color: var(--maincolor);
+  padding: 40px;
+  border-radius: 16px;
+  background: var(--White);
+  position: relative;
+  border: 1px solid var(--primary)
+}
+
+.resultsilder .slick-slide {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.resultsilder .slick-prev {
+  left: -50px !important;
+}
+
+.resultsilder .slick-next {
+  right: -20px !important;
+}
+
+.resitem span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: var(--white);
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 16px 0px 16px 0px;
+  background: var(--primary);
+}
+
+.resultsilder .slick-list,
+.resultsilder button.slick-arrow {
+  z-index: 0;
+}
+
+.resultsilder .chall {
+  margin-top: 50px;
+}
+
+.resitem h4,
+.resitem strong {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.resitem h6 {
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--subtitle);
+}
+
+.approch {
+  margin-bottom: 70px;
+}
+.tabrow {
+  border-radius: 16px;
+  padding: 50px;
+  background-color: rgba(204,228,255,.3);
+}
+.restabs .nav-item a {
+  text-decoration: none;
+  display: block;
+  border:0px;
+  padding: 33px;
+  color: #6E7B81;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: -1.008px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+.restabs .nav-tabs .nav-item.show .nav-link, .restabs .nav-tabs .nav-link.active {
+  color: var(--primary);
+  background: var(--gradientbg);
+}

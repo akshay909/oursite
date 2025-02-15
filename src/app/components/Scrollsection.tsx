@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Resultslider from './Resultslider';
 import Resulttabs from './Resulttabs';
+import Insideslider from './Insideslider';
 export default function Scrollsection() {
 
   const [activeTab, setActiveTab] = useState('tab1');
@@ -221,17 +222,16 @@ export default function Scrollsection() {
           {/* Results  */}
           <div className='container-fluid p-5' id="results">
             <div className='headcontent text-center d-flex gap-3 flex-column'>
-              <h2>Improve the KPIs That Matter Most to Your Business</h2>
-
+              <h2>Improve the KPIs That Matter <br/>Most to Your Business</h2>
             </div>
             <Resulttabs />
           </div>
           {/* Inside */}
-          <div className='container p-0  py-5' id="inside">
+          <div className='container-fluid ' id="inside">
             <div className='headcontent text-center d-flex gap-3 flex-column'>
-              <h2>Inside WebFX</h2>
-              <p>Our expert-led strategies are backed by our award-winning technology. Together, our clients are empowered to make informed and strategic marketing decisions, ensuring they stay ahead in the ever-evolving digital landscape.</p>
+              <h2>Inside Acssinfo</h2>
             </div>
+            <Insideslider/>
           </div>
 
         </div>

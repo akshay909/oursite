@@ -25,7 +25,7 @@ export default function Resulttabs() {
                     </Nav>
 
                     {/* Tabs Content */}
-                    <Tab.Content>
+                    <Tab.Content className="">
                         <Tab.Pane eventKey="tab1">
                             <div className="row tabrow">
                                 <div className="col-md-7">

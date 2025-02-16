@@ -425,3 +425,93 @@ textarea.form-control{
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
 }
+
+@media screen and (max-width:767px ) {
+
+  section.banner {
+    padding: 40px 0;
+}
+
+.banner-heading {
+  font-weight: 800;
+  font-size: 40px;
+}
+.banner-description, .headcontent p {
+  font-size: 16px;
+}
+.banner-content form {
+  display: flex;
+}
+.mainbtn {
+  padding: 5px 15px;
+}
+ 
+.headcontent h2 {
+  font-size: 34px;
+}
+.scrollnav.sticky {
+  position: relative;
+  width: 100%;
+  padding: 10px 24px;
+}
+img.m-auto, img.pb-5 {
+  width: 100%;
+  height: 100%;
+}
+.counter {
+  display: block !important;
+  text-align: center;
+}
+.setup h5 {
+  font-size: 35px;
+}
+.techtabs .nav-link {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.techtabs .tab-content p {
+  font-size: 16px;
+}
+.px-5 {
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
+}
+.p-5 {
+  padding: 1rem!important;
+}
+.restabs .nav-item a {
+  padding: 25px;
+  font-size: 20px;
+}
+.tabrow, .infonav {
+  padding: 25px;
+}
+.restabs .tabrow h3, .infonav h3 {
+  font-size: 25px;
+}
+.restabs .row.tabrow p, .row.tabrow a, .infonav p, .infonav a {
+  font-size: 16px;
+}
+.accinfoslider .slick-slide {
+  padding: 5px;
+}
+.pt-5 {
+  padding-top: 1rem!important;
+}
+.accinfoslider .slick-slide span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+    padding: 15px;
+  display: block;
+}
+.accinfoslider .slick-track {
+  display: block;
+  justify-content: center !important;
+}
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+}

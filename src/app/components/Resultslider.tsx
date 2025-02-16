@@ -8,10 +8,32 @@ export default function Resultslider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 2, // Default for larger screens
     slidesToScroll: 1,
     arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024, // Below 1024px (Tablets)
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768, // Below 768px (Mobile - Portrait)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480, // Below 480px (Smaller Mobile Screens)
+        settings: {
+          slidesToShow: 1,
+          arrows: false, // Hide arrows on small screens
+        },
+      },
+    ],
   };
+  
   return (
     <>
       <div className="resultsilder container-fluid mx-auto">

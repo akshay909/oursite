@@ -40,7 +40,7 @@ export default function Footerform(){
 				<div className="col-md-6">
 					<div className="form-group">
                         <label id="number-label">Budget</label>
-                        <select className="form-control" required  name="Budget"><option value="Budget">Select</option><option value="$1000-$2000">$1000-$2000</option><option value="$2000-$3000">$2000-$3000</option><option value="$3000-$4000">$3000-$4000</option><option value="$4000-$5000">$4000-$5000</option><option value="$5000-$7500">$5000-$7500</option><option value="over $7500">over $7500</option></select>
+                        <select className="form-control" required  name="Budget"><option value="Budget" selected >Select</option><option value="$1000-$2000">$1000-$2000</option><option value="$2000-$3000">$2000-$3000</option><option value="$3000-$4000">$3000-$4000</option><option value="$4000-$5000">$4000-$5000</option><option value="$5000-$7500">$5000-$7500</option><option value="over $7500">over $7500</option></select>
 
 
 					</div>
@@ -49,7 +49,7 @@ export default function Footerform(){
 					<div className="form-group">
 						<label>Service Interested In</label>
 						<select id="dropdown" name="services" className="form-control" required>
-							<option disabled selected value="">Select</option>
+							<option disabled selected value="Select">Select</option>
 							<option value="webredesign">Website Redesign</option>
 							<option value="logodesign">Logo Design & Branding</option>
 							<option value="maintain">Web Hosting & Maintenance</option>

@@ -28,10 +28,12 @@ export default function Insideslider() {
 
     return (
         <div className='accinfoslider pt-5 '>
-            <Slider
+            {/* <Slider
                 {...navSliderSettings}
                 ref={navSlider}
-                asNavFor={mainSlider.current} >
+                asNavFor={mainSlider.current} > */}
+                    <Slider {...navSliderSettings} ref={navSlider} asNavFor={mainSlider.current ?? undefined}>
+
                 <div className='infoitem'>
                     <span>Our Culture</span>
                 </div>

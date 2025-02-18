@@ -1,6 +1,7 @@
 export default function Footerform(){
     return(
         <>
+		<section className="zindex">
         <div className="container py-5">
     <div className='headcontent text-center d-flex gap-3 flex-column'>
               <h2>REQUEST A QUOTE</h2> </div>
@@ -81,6 +82,7 @@ export default function Footerform(){
 		</form>
 	</div>	
 </div>
+</section>
         </>
     );
 }

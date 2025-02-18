@@ -5,6 +5,7 @@ export default function Blogs(){
 
     return(
     <>
+    <section className='zindex'>
     <div className="container-fluid p-5">
     <div className="row d-flex gap-5 flex-column">
     <div className='headcontent pb-3 d-flex justify-content-between'>
@@ -39,6 +40,7 @@ export default function Blogs(){
 
     </div>
     </div>
+    </section>
     </>
 );
 } 

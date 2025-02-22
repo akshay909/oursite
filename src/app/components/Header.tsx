@@ -54,8 +54,8 @@ export default function Header() {
                         </Link>
                      </li>
                      <li className="nav-item">
-                        <Link href="/about" className="nav-link">
-                           UX & interactive
+                        <Link href="/seo" className="nav-link">
+                           seo
                         </Link>
                      </li>
                      <li className="nav-item">

@@ -86,7 +86,7 @@ section.banner {
   transition: 0.3s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   background-color: var(--white);
-  z-index: 999;
+  z-index: 999999;
 }
 
 .scrollnav {
@@ -309,6 +309,13 @@ footer {
   padding: 50px;
 }
 
+.topcard {
+  background: var(--primary);
+  padding: 20px 0;
+}
+.topcard img {
+  margin-top: -77px;
+}
 
 .form-wrap{
 	background: rgba(255,255,255,1);
@@ -467,6 +474,17 @@ z-index: 9999; background-color: var(--white); }
     border-radius: 12px;
   }}
 
+
+  .pricing .prleftcol {
+    border-right: 1px solid #ccc;
+}
+
+.pricerow {
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 2px 24px rgba(110,123,129,.2);
+  background-color: #FFF;
+}
 
 /* Responsive */
 
